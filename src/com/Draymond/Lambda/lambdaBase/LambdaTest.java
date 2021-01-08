@@ -1,4 +1,4 @@
-package com.Draymond.Lambda;
+package com.Draymond.Lambda.lambdaBase;
 
 import org.junit.Before;
 import org.junit.Test;
