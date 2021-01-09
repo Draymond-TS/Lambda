@@ -43,13 +43,13 @@ public class BiFunctionAdvanceTest {
             List<Person> peoples = Arrays.asList(p1, p2, p3);
 
             List<Person> personResult1 = test.getPersonsByUsername("zhangsan", peoples);
-            personResult1.forEach(person -> System.out.println(person.getUsername()));
+            //personResult1.forEach(person -> System.out.println(person.getUsername()));
 
             List<Person> personResult2 = test.getPersonsByAge(20, peoples);
-            personResult2.forEach(person -> System.out.println(person.getAge()));
+            //personResult2.forEach(person -> System.out.println(person.getAge()));
 
             List<Person> personResult3 = test.getPersonsByAge1(20, peoples);
-            personResult3.forEach(person -> System.out.println(person.getAge()));
+            //personResult3.forEach(person -> System.out.println(person.getAge()));
 
             List<Person> personResult4 = test.getPersonsByAge2(20, peoples, (age, personList) -> {
                 return personList.stream().filter(person -> person.getAge() > age).collect(Collectors.toList());
