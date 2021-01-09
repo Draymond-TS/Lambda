@@ -4,8 +4,8 @@ package com.Draymond.Lambda.functionBase;
 import java.util.function.Function;
 
 /**
- * @author Zerox
- * @date 2018/12/4 16:48
+ * @author Draymond
+ * @date 2021/1/9 18:50
  */
 public class TestFunctionofAndthen {
 

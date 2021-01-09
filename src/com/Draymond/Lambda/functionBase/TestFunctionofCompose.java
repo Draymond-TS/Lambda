@@ -4,10 +4,10 @@ package com.Draymond.Lambda.functionBase;
 import java.util.function.Function;
 
 /**
- * @author Zerox
- * @date 2018/12/4 16:44
+ * @author Draymond
+ * @date 2021/1/9 18:50
  */
-public class TestFunctionofcompose {
+public class TestFunctionofCompose {
 
     public static void main(String[] args) {
         // 翻译过来就是：接收一个function类型的函数作为参数,这个函数真是越看越有意思。

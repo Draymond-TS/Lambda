@@ -4,8 +4,8 @@ package com.Draymond.Lambda.functionBase;
 import java.util.function.Function;
 
 /**
- * @author Zerox
- * @date 2018/12/5 13:21
+ * @author Draymond
+ * @date 2021/1/9 18:50
  */
 public class TestFunctionIdentity {
 
